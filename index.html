@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="icon" href="IMG/calculatoricon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/CSS/main.css">
+    <script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="container col-lg-5 col-md-8 col-12 mt-lg-5 mt-4">
+
+                    <div class="px-2 py-2" id="calcBody">
+
+                        <!-- Visor da Caluladora -->
+                        <div class="row mt-2 my-2 mx-1" id="visor">
+                            <div class="col-12">
+                                <a id="lastCount">Último</a>
+                                <a class="num" id="screenNumTop"></a>
+                            </div>
+                            <div class="col-12">
+                                <a class="equal"></a>
+                                <a class="num" id="screenNumBottom"></a>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Teclado da Calculadora -->
+                        <div class="row mx-1 mb-2" id="keyboardBody">
+
+                            <!-- Parte esquerda da calculadora -->
+                            <div class="col-9 leftPart">
+                                <div class="row each-row-left">
+                                    <button class="col-4 numButton" value="7">7</button>
+                                    <button class="col-4 numButton" value="8">8</button>
+                                    <button class="col-4 numButton" value="9">9</button>
+                                </div>
+                                <div class="row each-row-left">
+                                    <button class="col-4 numButton" value="4">4</button>
+                                    <button class="col-4 numButton" value="5">5</button>
+                                    <button class="col-4 numButton" value="6">6</button>
+                                </div>
+                                <div class="row each-row-left">
+                                    <button class="col-4 numButton" value="1">1</button>
+                                    <button class="col-4 numButton" value="2">2</button>
+                                    <button class="col-4 numButton" value="3">3</button>
+                                </div>
+                                <div class="row each-row-left">
+                                    <button class="col-4 numButton" value="0">0</button>
+                                    <button class="col-4 numButton" value=".">.</button>
+                                    <button class="col-4 equalButton">=</button>
+                                </div>
+                            </div>
+
+                            <!-- Parte direita da calculadora -->
+                            <div class="col-3 rightPart">
+                                <div class="row each-row-right">
+                                    <button class="col-12 delButton"><img src="IMG/delete.png"></button>
+                                </div>
+                                <div class="row each-row-right">
+                                    <button class="col-12 oprtnButton" value="÷">÷</button>
+                                </div>
+                                <div class="row each-row-right">
+                                    <button class="col-12 oprtnButton" value="x">x</button>
+                                </div>
+                                <div class="row each-row-right">
+                                    <button class="col-12 oprtnButton" value="-">-</button>
+                                </div>
+                                <div class="row each-row-right">
+                                    <button class="col-12 oprtnButton" value="+">+</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p id="pFooter">by <a id="linkFooter" href="https://github.com/andreysena" target="_blank">Andrey Sena</a></p>
+    </footer>
+
+</body>
+
+</html>
